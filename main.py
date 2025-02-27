@@ -403,10 +403,10 @@ def home():
                     if (greetings.some(greet => message.toLowerCase().includes(greet))) {
                         response = '¡Hola! Bienvenid@. 😊 ¡Qué alegría tenerte aquí! Soy tu asistente virtual y estoy listo para ayudarte en lo que necesites. 💡 Puedes preguntarme sobre <strong>nuestros servicios</strong>, <strong>cómo funciona la plataforma</strong> o cualquier otra duda que tengas. 🚀 ¡Empecemos! ¿En qué puedo ayudarte hoy?';
 
-                    } else if (message.toLowerCase().includes('podrias darme el promedio de días de estancia para la enfermedad diabetes?')) {
+                    } else if (message.toLowerCase().includes('podrias darme el promedio de dias de estancia para la enfermedad diabetes?')) {
                         response = 'El promedio de días de estancia para esta enfermedad es de 5,57. Sin embargo, debes tener en cuenta que depende de la edad, el género y otros factores relacionados con la historia clínica del usuario.';
 
-                    } else if (message.toLowerCase().includes('ahora, podriad decirme cuántas camas tenemos disponibles en este momento?')) {
+                    } else if (message.toLowerCase().includes('ahora, podrias decirme cuántas camas tenemos disponibles en este momento?')) {
                         response = 'Claro, en este momento disponemos de 10 camas disponibles en diferentes pabellones. ¿Quieres que indique el dato por pabellon?';
 
                     } else if (message.toLowerCase().includes('si')) {
